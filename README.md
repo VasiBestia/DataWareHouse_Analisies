@@ -41,6 +41,26 @@ Once the data was understood, we applied complex SQL techniques to answer busine
 12. **Reporting:** Finalizing the queries into clean, reusable views for BI tools.
 
 ---
+## 📅 Project Management & Development Workflow
+
+To ensure a professional and structured delivery, this project was managed using an **Agile Kanban Board** via **GitHub Projects**. This approach allowed for clear traceability between the initial analytical roadmap and the final T-SQL implementation.
+
+### 🗺️ From Roadmap to Action
+The 12 steps defined in the **Project Roadmap** were translated into individual technical tasks (Issues). This ensured that every phase—from initial Database Exploration to complex Part-to-Whole analysis—was planned, executed, and validated systematically.
+
+### 🛠️ Strategic Organization:
+* **Backlog Management:** Used to plan future enhancements such as Incremental Loading and Power BI integration.
+* **Task Categorization:** I implemented custom **Labels** to provide instant visual context:
+    * `gold-layer` / `silver-layer`: Indicates the data architecture tier.
+    * `sql-logic`: Highlights complex analytical queries.
+    * `data-quality`: Marks essential validation and testing tasks.
+* **Status Tracking:** The board maintains a clear history of completed milestones in the `Done` column, while keeping current documentation and final refinements in `In Progress`.
+
+<p align="center">
+  <img src="docs/github_project_board.png" width="100%" alt="GitHub Project Management Board">
+</p>
+
+> **Professional Insight:** By utilizing GitHub Projects, I demonstrate not only my SQL technical skills but also my ability to work within professional software development lifecycles (SDLC) and maintain organized project documentation.
 
 ## 🏗️ Data Model (Gold Layer)
 
